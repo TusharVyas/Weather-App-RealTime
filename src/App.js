@@ -29,7 +29,7 @@ function App() {
   }
   return (
     <Container>
-      <AppLabel href="/" className="btn btn-primary">Weather App</AppLabel>
+      <AppLabel href="https://tusharvyas.github.io/Weather-App-RealTime/" className="btn btn-primary">Weather App</AppLabel>
       {weather?<WeatherInfoComponent weather={weather} />:<CityComponent updateCity={updateCity} fetchWeather={fetchWeather}/>}
     </Container>
   );
